@@ -14,8 +14,16 @@
       <!-- Contact Details -->
       <div class="footer-contact">
         <h3>Contact</h3>
-        <p>Email: hello@festify.example</p>
-        <p>Phone: +61 400 123 456</p>
+        <p>
+  <a href="mailto:hello@festify.com">
+    hello@festify.com
+  </a>
+</p>
+        <p>
+  <a href="tel:0400000000">
+    Phone: 0400 000 000
+  </a>
+</p>
         <p>Melbourne, Australia</p>
       </div>
 

@@ -2749,3 +2749,60 @@ textarea:focus-visible {
   }
 
 }
+
+/* =========================================================
+   ACCESSIBILITY - WCAG AA BUTTON CONTRAST
+   ========================================================= */
+
+.btn-primary,
+.nav-cta,
+.package-action-button {
+  background: #C83E4F;
+  border-color: #C83E4F;
+  color: #FFFFFF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.nav-cta:hover,
+.nav-cta:focus,
+.package-action-button:hover,
+.package-action-button:focus {
+  background: #A83246;
+  border-color: #A83246;
+  color: #FFFFFF;
+}
+
+.dark-theme .btn-primary,
+.dark-theme .nav-cta,
+.dark-theme .package-action-button {
+  background: #C83E4F;
+  border-color: #C83E4F;
+  color: #FFFFFF;
+}
+
+.dark-theme .btn-primary:hover,
+.dark-theme .btn-primary:focus,
+.dark-theme .nav-cta:hover,
+.dark-theme .nav-cta:focus,
+.dark-theme .package-action-button:hover,
+.dark-theme .package-action-button:focus {
+  background: #A83246;
+  border-color: #A83246;
+  color: #FFFFFF;
+}
+
+/* =========================================================
+   ACCESSIBILITY - MUTED TEXT CONTRAST
+   ========================================================= */
+
+.dark-theme .hero p,
+.dark-theme .section-header p,
+.dark-theme .planner-header p,
+.dark-theme .planner-selection-summary,
+.dark-theme .story-section p,
+.dark-theme .values-section p,
+.dark-theme .packages-story-block p,
+.dark-theme .packages-final-cta p {
+  color: #C7C6D4;
+}

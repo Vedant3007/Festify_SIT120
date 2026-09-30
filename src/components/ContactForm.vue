@@ -639,15 +639,15 @@
             </label>
 
             <input
-              id="mobile"
-              v-model.trim="form.mobile"
-              type="tel"
-              placeholder="04XX XXX XXX"
-              autocomplete="tel"
-              :class="{ 'input-error': errors.mobile }"
-              aria-required="true"
-              :aria-invalid="!!errors.mobile"
-              @blur="validateMobile"
+  id="mobile"
+  v-model="form.mobile"
+  type="tel"
+  name="mobile"
+  inputmode="tel"
+  autocomplete="tel"
+  pattern="[0-9+\s()-]{8,15}"
+  maxlength="15"
+  aria-required="true"
             >
 
             <p
